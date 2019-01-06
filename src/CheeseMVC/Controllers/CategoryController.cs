@@ -39,7 +39,7 @@ namespace CheeseMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Add the new cheese to my existing cheeses
+                // Add the new category to my existing categir
                 CheeseCategory newCategory = new CheeseCategory
                 {
                     Name = addCategoryViewModel.Name,
